@@ -1,3 +1,16 @@
+<% content_for :sidebar do %>
+  <h3>Sidebar</h3>
+  <p>taram</p>
+  <div>
+  	<%= 2 + 2 %>
+  </div>
+  <ol>
+  <% 3.times do %>
+    <li>test text</li>
+  <% end %>
+  </ol>
+  <% #this is a comment %>
+<% end %>
 <h3>Home</h3>
 <p>Welcome to the home of <%= @owner.name %>.</p>
 <p>I was born on <%= @owner.birthdate %>.</p>

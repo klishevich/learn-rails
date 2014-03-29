@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Special</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>  
+  <description>Special layout</description>
+</head>
+<body>
+<div class="mail">
+  <%= yield %>
+</div>
+<div class="sidebar">
+  <%= yield :sidebar %>
+</div>
+</body>
+</html>
