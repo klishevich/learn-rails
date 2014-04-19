@@ -18,7 +18,7 @@ gem 'figaro'
 gem 'foundation-rails'
 gem 'gibbon'
 gem 'google_drive'
-gem 'high_voltage'
+gem 'high_voltage'#for static pages
 gem 'simple_form'
 group :development do
   gem 'better_errors'
