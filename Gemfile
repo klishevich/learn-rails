@@ -16,7 +16,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'activerecord-tableless'
 gem 'figaro' #environment variables
 gem 'foundation-rails'
-gem 'gibbon'
+gem 'gibbon' #mailchimp api
 gem 'google_drive'
 gem 'high_voltage'#for static pages
 gem 'simple_form'
